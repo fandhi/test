@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="">
+
+	<title>Dropdown</title>
+	<style>
+		.button {
+			background-color: #fff;
+			border: 1px solid #eee;
+			border-radius: 4px;
+			padding: 20px;
+			position: relative;
+			width: 200px;
+		}
+		.list-body {
+			display: none;
+			left: 0px;
+			position: absolute;
+			top: 60px;
+			width: 100%;
+		}
+		.list-body a {
+			background-color: #fff;
+			border: 1px solid #eee;
+			color: #999;
+			display: block;
+			padding: 10px;
+			text-decoration: none;
+			width: auto;
+		}
+		.list-body a:nth-child(even) {
+			background: #fff;
+		}
+		.list-body a:nth-child(odd) {
+			background: #f9f9f9;
+		}
+		.list-body a:hover {
+			background-color: #4cbf67;
+			color: #fff;
+		}
+		.button:hover > .list-body {
+			display: block;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="button">Menu
+		<div class="list-body">
+			<a href="" class="list">List 1</a>
+			<a href="" class="list">List 2</a>
+			<a href="" class="list">List 3</a>
+		</div>
+	</div>
+</body>
+</html>

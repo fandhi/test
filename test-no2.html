@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="">
+
+	<title>Test no 5</title>
+	<style>
+		.container {
+			height: 500px;
+			margin-bottom: 10px;
+			position: relative;
+			width: 500px;
+		}
+		.bg-grey {
+			background-color: #aaa;
+		}
+		.bg-black {
+			background-color: #000;
+		}
+		.box {
+			height: 100px;
+			width: 100px;
+		}
+		.box-1 {
+			left: 50%;
+			position: absolute;
+			top: 50%;
+			-webkit-transform: translate(-50%,-50%);
+			-moz-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+		} 
+		.box-2 {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-left: -50px;
+			margin-top: -50px;
+		} 
+		.box-3 {
+			margin: auto;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+		} 
+	</style>
+</head>
+
+<body>
+	<div class="container bg-grey">
+		<div class="box box-1 bg-black"></div>
+	</div>
+	<div class="container bg-grey">
+		<div class="box box-2 bg-black"></div>
+	</div>
+	<div class="container bg-grey">
+		<div class="box box-3 bg-black"></div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="">
+
+	<title>Test no 5</title>
+	<style>
+		body, html {
+			font-family: sans-serif;
+		}
+		.list {
+			background-color: #fff;
+			padding-inline-start: 10px;
+			position: relative;
+		}
+		.list li {
+			border-bottom: 1px solid #ddd;
+			font-size: 18px;
+			list-style: none;
+			padding: 15px 0 15px 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<ul id="kjjk" class="list">
+	</ul>
+	<script>
+		var show = document.getElementById('kjjk');
+		for(i=1; i<=100; i++) {
+		  if(i%3 == 0 && i%5 == 0) {
+			show.innerHTML += "<li>TokoPedia</li>";
+		  } 
+		  else if(i%3 == 0) {
+			show.innerHTML += "<li>Toko</li>";
+		  } 
+		  else if (i%5 == 0) {
+			show.innerHTML += "<li>Pedia</li>";
+		  } else{
+			show.innerHTML += "<li>"+i+"</li>";
+		  }
+		}
+	</script>
+</body>
+
+</html>
